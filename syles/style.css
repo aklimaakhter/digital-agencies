@@ -168,4 +168,32 @@ a {
 }
 .btn-details {
     border-radius: 30px;
+    color: red;
+}
+/* Appointment section styles */
+.appointment-container{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    background-color: red;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: -30px;
+    color: white;
+}
+.appointment-description{
+    font-size: 16px;
+    color: white;
+    margin: 20px 0px;
+    /* width: 70%;
+    margin: 0 auto; */
+}
+.phone-call{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-right: 2px solid white;
+    padding-right: 40px;
 }
